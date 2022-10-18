@@ -1,1 +1,8 @@
-### Idea is to re cap the docker basic from the managing images and containers, work with volumes and bind mount, networking for cross communication, multi container orchestrations to deploy to aws with ec2 and ecs 
+###### Idea is to re-cap 
+
+Docker basic
+Managing images and containers
+Work with volumes and bind mount
+Networking for cross communication
+Multi container orchestrations
+Deploy to aws with ec2 and ecs 
