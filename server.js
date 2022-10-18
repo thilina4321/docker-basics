@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
       </head>
       <body>
         <section>
-          <h2>My Course Goal</h2>
+          <h2>My Course Goals</h2>
           <h3>${userGoal}</h3>
         </section>
         <form action="/store-goal" method="POST">
@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
             <label>Course Goal</label>
             <input type="text" name="goal">
           </div>
-          <button>Set Course Goal</button>
+          <button>Set Course Goal!</button>
         </form>
       </body>
     </html>
