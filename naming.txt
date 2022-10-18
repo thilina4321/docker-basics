@@ -11,4 +11,4 @@ Naming docker container
 // docker run --name <container_name> -p <local_port>:<container_expose_port> <image_name>
 
 // Example
-// docker run --name <goalcontainer> -p <3003>:<80> <goalapp>
+// docker run --name <goalcontainer> -p 3003:80 <goalapp>
