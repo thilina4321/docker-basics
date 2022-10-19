@@ -1,0 +1,15 @@
+// Networking
+
+// can be seperate to 3 types
+1. container to www
+2. container to host machine
+3. container to container
+
+1. container to www
+// docker container can communicate to the www in out of the box
+Eg : build a image and try
+
+// build image => docker build -t www .
+// build container => docker run -p 3001:3000 --name wwwc -d --rm  www
+
+// send a http call to => http://localhost:3001/movies
