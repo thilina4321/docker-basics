@@ -1,0 +1,4 @@
+docker run -p 4500:80 --name goalc -v $(pwd):/app -v /app/node_modules goalapp
+
+// for this bind mount I added a anonymous volume as well for node_modules
+// so I dont need to install it in the local and can get from the docker image/container
