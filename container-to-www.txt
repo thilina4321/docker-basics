@@ -13,3 +13,16 @@ Eg : build a image and try
 // build container => docker run -p 3001:3000 --name wwwc -d --rm  www
 
 // send a http call to => http://localhost:3001/movies
+
+
+2. container to host machine
+// docker container can communicate to the host machine 
+// we need to change the localhost to host.docker.internal
+// with that docker know what is the ip address of our host machine
+
+Eg : build a image and try
+
+// build image => docker build -t host .
+// build container => docker run -p 3002:3000 --name hostc -d --rm  host
+
+// send a http call to => http://localhost:3001/favorites
