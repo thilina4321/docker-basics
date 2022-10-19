@@ -67,9 +67,9 @@ app.get('/people', async (req, res) => {
   }
 });
 
-
+// change to the container name
 mongoose.connect(
-  'mongodb://host.docker.internal:27017/swfavorites',
+  'mongodb://mongodb:27017/swfavorites',
   { useNewUrlParser: true },
   (err) => {
     if (err) {
