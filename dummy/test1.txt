@@ -1,0 +1,8 @@
+Test one
+
+// copy from container to local
+
+// docker cp  <container_name>:/<container_folder> <local_folder_name>
+
+Example
+// docker cp  copy_container:/dummy dummy
