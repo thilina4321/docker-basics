@@ -26,3 +26,18 @@ Eg : build a image and try
 // build container => docker run -p 3002:3000 --name hostc -d --rm  host
 
 // send a http call to => http://localhost:3001/favorites
+
+3. container to container
+// docker container can communicate to container
+// for that it is best practice to create a network
+// Then we need to change the localhost to container name
+// with that docker knows what is the ip address
+
+Eg : build a image and try
+
+// build image => docker build -t c2c .
+// create a network => docker network create fav-net
+// build mongodb container => docker run --name --network fav-net mongodb -d --rm mongo
+// build container for server => docker run -p 3000:3000 --name fav-app -d --rm  c2c
+
+// send a http call to => http://localhost:3000/favorites
