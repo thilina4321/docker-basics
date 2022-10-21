@@ -1,7 +1,7 @@
-// from this we can create our own utility container 
+from this we can create our own utility container 
 
-// From this docker-compose.yaml we can create the our own npm 
+ From this docker-compose.yaml we can create the our own npm 
 
-// run this with => 
-  // docker-compose run --rm <container_name> init
-  // docker-compose run --rm npm init
+ run this with => 
+   docker-compose run --rm <container_name> init
+   docker-compose run --rm npm init
